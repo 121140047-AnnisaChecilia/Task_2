@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffde85;
+    margin: 0;
+    padding: 0;
+  }
+  h1 {
+    text-align: center;
+    background-color: #805217;
+    color: #ffffff;
+    padding: 20px;
+    margin: 0;
+  }
+  form {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #f0d199;
+    padding: 70px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(70, 29, 5, 0.2);
+  }
+  label {
+    display: flex;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  input[type="email"],
+  input[type="text"],
+  input[type="Nim"],
+  input[type="Prodi"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 3px solid #3a2505;
+    border-radius: 30px;
+  }
+  button[type="submit"] {
+    background-color: #805217;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  .info {
+    background-color: #ac8846;
+    color:#fff;
+    text-align: center;
+    border-radius: 5px;
+  }
+  .info table {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }  
